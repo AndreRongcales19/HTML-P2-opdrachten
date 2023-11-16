@@ -77,23 +77,79 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+    .tile {
+        position: relative;
+    }
+
     .tile:nth-child(1) {
         background-color: burlywood;
         color: black;
         width: 400px;
+        left: 10px;
+        top: 10px;
     }
 
     .tile:nth-child(2) {
         background-color: burlywood;
         color: black;
         width: 400px;
-        left: 410px;
+        left: 10px;
+        top: 10px;
     }
 
     .tile:nth-child(3) {
         background-color: burlywood;
         color: black;
         width: 400px;
-        left: 620px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .tile:nth-child(4) {
+        background-color: burlywood;
+        color: black;
+        width: 400px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .tile:nth-child(5) {
+        background-color: burlywood;
+        color: black;
+        width: 400px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .tile:nth-child(6) {
+        background-color: burlywood;
+        color: black;
+        width: 400px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .tile:nth-child(7) {
+        background-color: burlywood;
+        color: black;
+        width: 400px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .tile:nth-child(8) {
+        background-color: burlywood;
+        color: black;
+        width: 400px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .tile:nth-child(9) {
+        background-color: burlywood;
+        color: black;
+        width: 400px;
+        left: 10px;
+        top: 10px;
     }
 }
