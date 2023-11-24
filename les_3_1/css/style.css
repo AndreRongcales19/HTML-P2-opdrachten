@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black-purple: #2D283E;
+    --grey: #4C495D;
+    --white: #d1D7E0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: darkgray;
+    margin: auto;
+    width: 50vw;
+    margin-bottom: 5px;
+}
+
+main {
+    background-color: var(--black-purple);
+    color: aliceblue;
+    margin: auto;
+    width: 50vw;
+    height: 100vw;
+}
+
+.card-category {
+    background-color: var(--grey);
+}
+
+.card-artists {
+    column-count: 3;
+}
+
+.card {
+    border: 1px solid white;
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+img {
+    width: 180px;
+    height: 160px;
+    padding: ;
+}
