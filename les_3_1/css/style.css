@@ -39,7 +39,7 @@ main {
 .card {
     border: 1px solid white;
     width: 200px;
-    height: 250px;
+    height: 300px;
     margin: auto;
     margin-bottom: 50px;
     padding: 5px;
@@ -48,5 +48,4 @@ main {
 img {
     width: 180px;
     height: 160px;
-    padding: ;
 }
