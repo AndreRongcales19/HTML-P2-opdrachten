@@ -1,0 +1,68 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-auto-rows: minmax(150px, auto);
+    gap: 20px;
+    grid-template-areas: 
+    "hr hr hr"
+    "nv mn sb"
+    "nv mn sb"
+    "nv mn ad"
+    "nv mn ad"
+    "ft ft ft"
+    ;
+}
+
+.main>p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav>ul {
+    list-style: none;
+}
+
+div {
+    background-color: rgb(247, 247, 120);
+    border: 3px solid orange;
+    border-radius: 2mm;
+}
+
+.header {
+    grid-area: hr;
+}
+
+.nav {
+    grid-area: nv;
+}
+
+.main {
+    grid-area: mn;
+}
+
+.sidebar {
+    grid-area: sb;
+}
+
+.advertising {
+    grid-area: ad;
+}
+
+.footer {
+    grid-area: ft;
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas:
+        "hr  hr hr hr"
+        "nv  nv nv nv "
+        "sb  mn mn mn "
+        "sb  mn mn mn"
+        "sb  mn mn mn"
+        "sb  mn mn mn"
+        "sb  mn mn mn"
+        "ad  ft ft ft" ;
+    }
+}
